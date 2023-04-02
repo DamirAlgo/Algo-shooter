@@ -1,3 +1,9 @@
+#In this game you need to kill the aliens with bullets
+#There is Class Player, Class Enemy and Class Bullet
+#Press KEY_LEFT or KEY_RIGHT to move
+#Press SPACE to shoot
+
+
 from pygame import *
 from random import randint
 from time import time as timer #импортируем функцию для засекания времени, чтобы интерпретатор не искал эту функцию в pygame модуле time, даём ей другое название сами
